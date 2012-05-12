@@ -14,7 +14,7 @@ object Exercise10 {
       	case _ if (n > 0) => {
       	      if (n % 2 == 0) {
       	        if ( n == myPow(x, n/2)) myPow(n, 2)
-      	        else Math.pow(x, n)
+      	        else scala.math.pow(x, n)
       	      }
       	      else { x * myPow(x, n-1)}
       	}
