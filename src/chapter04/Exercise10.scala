@@ -1,5 +1,4 @@
 package chapter04
-import scala.collection.JavaConversions.propertiesAsScalaMap
 
 object Exercise10 {
   

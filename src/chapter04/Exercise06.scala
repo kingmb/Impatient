@@ -1,6 +1,5 @@
 package chapter04
 import scala.collection.immutable._
-import scala.collection.JavaConversions.mapAsScalaMap
 import java.io.File
 import scala.collection.mutable.LinkedHashMap
 
