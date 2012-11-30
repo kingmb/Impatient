@@ -1,5 +1,6 @@
 package chapter03
 
+import scala.util.Random
 object Exercise01 {
   
   def main(args: Array[String]): Unit = {
@@ -8,6 +9,6 @@ object Exercise01 {
   }
   
   def createArray(size: Int)= {
-    for (i <- 0 to size-1) yield i
+    for (i <- 0 until size) yield Random.nextInt(size)
   }  
 }

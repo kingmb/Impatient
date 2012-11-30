@@ -2,17 +2,20 @@ package chapter05
 
 object Exercise10 {
   
-	class Employee1(val name: String, var salary: Double) {
+	class EmployeeWorse(val name: String, var salary: Double) {
 		def this() { this("John Q. Public", 0.0) }
+		override def toString =  name + salary
 	}
 	
-	class Employee() {
-	  var name: String = "John Q. Public"
-	  var salary: Double = 0.0
-		def this(n: String, s: Double) = {
-	    this()
-	    name = n
-	    salary = s
-	  }
+	class EmployeeBetter(val name: String = "John Q. Public", var salary: Double = 0.0) {
+    override def toString =  name + salary
 	}
+	
+  def main(args: Array[String]): Unit = { 
+    println(new EmployeeWorse("hi", 2.5))
+    println(new EmployeeBetter("hi", 2.5))
+    println(new EmployeeWorse())  
+    println(new EmployeeBetter("hu"))
+    println(new EmployeeBetter(salary = 4, name = "hewrl"))
+  } 	
 }
