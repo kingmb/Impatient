@@ -1,4 +1,4 @@
-package com.horstmann.impatient{
+ package com.horstmann.impatient{
 
   class Exercise01 {
     new TestI().print

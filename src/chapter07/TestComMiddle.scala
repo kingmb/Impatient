@@ -1,6 +1,6 @@
-package my
-package com
-package middle
+ package my
+ package com
+ package middle
 
 class TestComMiddle {
   def print = println("TestComMiddle")

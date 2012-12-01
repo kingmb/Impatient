@@ -1,4 +1,4 @@
-package com
+ package com
 
 class TestC {
   def print = println("TestC")
