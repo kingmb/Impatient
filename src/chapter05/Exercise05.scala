@@ -1,4 +1,4 @@
- package chapter05
+package chapter05
 import scala.reflect.BeanProperty
 
 object Exercise05 {

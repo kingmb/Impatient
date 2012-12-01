@@ -1,4 +1,4 @@
- package chapter01
+package chapter01
 import scala.math._
 import scala.BigInt._
 import scala.util.Random

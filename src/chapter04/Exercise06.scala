@@ -1,4 +1,4 @@
- package chapter04
+package chapter04
 import scala.collection.immutable._
 import java.io.File
 import scala.collection.mutable.LinkedHashMap

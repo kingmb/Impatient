@@ -1,4 +1,4 @@
- package chapter04
+package chapter04
 import scala.collection.mutable._
 import java.io.File
 

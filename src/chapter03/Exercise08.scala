@@ -1,4 +1,4 @@
- package chapter03
+package chapter03
 import scala.collection.mutable.ArrayBuffer
 
 object Exercise08 {

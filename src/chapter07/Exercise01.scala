@@ -1,6 +1,6 @@
- package com
- package horstmann
- package impatient{
+package com
+package horstmann
+package impatient{
 
   class Exercise01B {
     new TestI().print

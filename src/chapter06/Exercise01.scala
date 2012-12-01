@@ -1,4 +1,4 @@
- package chapter06
+package chapter06
 
 object Exercise01 {
   object Conversions { // Missing Constants

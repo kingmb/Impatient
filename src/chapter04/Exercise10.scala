@@ -1,4 +1,4 @@
- package chapter04
+package chapter04
 
 object Exercise10 {
   

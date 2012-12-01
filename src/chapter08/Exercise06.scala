@@ -1,4 +1,4 @@
- package chapter08
+package chapter08
 import chapter08.Exercise05.Point
 
 object Exercise06 {

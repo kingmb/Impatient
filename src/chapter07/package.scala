@@ -1,4 +1,4 @@
- package object random {
+package object random {
   var previous: Double = 10
   def nextInt(): Int = {
     nextDouble.toInt
