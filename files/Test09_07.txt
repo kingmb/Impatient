@@ -1,0 +1,2 @@
+Alles was1.2keine Zahl wie 4.599 ist, wird ausgegeben5.5,
+warum auch 3.4nicht

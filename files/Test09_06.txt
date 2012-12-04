@@ -1,0 +1,2 @@
+Dies ist ein "Test der hoffentlich klappt", ob er alle vier "Zita\"te" findet oder
+vielleicht "doch \\" nicht alle "vier ehhh" auf einmal
