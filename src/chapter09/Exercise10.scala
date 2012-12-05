@@ -15,7 +15,7 @@ object Exercise10 {
     val tom = new Person("Tom")   
     fred.addFriend(tony)
     tony.addFriend(tom) 
-    // No recursion please, than it crashs -> tony.addFriend(fred) 
+    // No recursion please, than it crash :-) -> tony.addFriend(fred) 
     println(fred)
     import java.io._
     val out = new ObjectOutputStream(new FileOutputStream("files//test.obj"))
