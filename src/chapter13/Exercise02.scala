@@ -1,18 +1,17 @@
 package chapter13
 
-import scala.collection.mutable.SortedSet
 import scala.collection.immutable.Map
+import scala.collection.mutable.LinkedList
 
-object Exercise02 {
+object Exercise03 {
   
   def main(args: Array[String]): Unit = {  
 
-    def indexes (in: String) = {
-      val charsWithIndex = in.zipWithIndex
-      charsWithIndex.foldLeft(Map[Character, SortedSet[Int]]())((m,c) => m + (new Character(c._1) -> (m.getOrElse(c._1, SortedSet[Int]()) + c._2)))    
+    def removeZero (in: LinkedList[Int]) = {
+      in.filter(_ != 0)
     }
     
-    val erg = indexes("Mississippi")
-    for ((k, v) <- erg) println(k + " -> " + v)
+    var values = LinkedList(2,0,4,56,0,3)
+    println(removeZero(values)) 
   }
 }
