@@ -1,8 +1,5 @@
 package chapter13
 
-import scala.collection.mutable.SortedSet
-import scala.collection.immutable.Map
-
 object Exercise05 {
   
   def main(args: Array[String]): Unit = {  
