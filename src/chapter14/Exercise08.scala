@@ -12,6 +12,7 @@ object Exercise08 {
     def leafSum(value: BinaryTree): Double = {
       value match {
         case Leaf(x) => x
+        case Node(op, x) => min(op, leafSum(x))
         case Node(op, x, tail @ _*) => eval(leafSum(x), op, tail.foldLeft(0.0)(_ + leafSum(_)))
       }
     }
@@ -23,6 +24,12 @@ object Exercise08 {
       case '*' => f * s
       case '/' if s != 0 => f / s
       case _ => 0
+    	}
+   
+    def min(op: Char, v: Double) = 
+      op match {
+      case '-' => - v
+      case _ => v
     	}
     
     
