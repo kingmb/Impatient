@@ -20,6 +20,6 @@ object Exercise01 {
     }
     
     val erg = indexes("Mississippi")
-    for ((k: Character, v: Set[Int]) <- erg) println(k + " -> " + v)
+    for ((k: Character, v: SortedSet[Int]) <- erg) println(k + " -> " + v)
   }
 }
