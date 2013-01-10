@@ -1,10 +1,19 @@
-
-<html>
-	<head>
- 		<title>XHTML 1.0 Strict Example</title>
- 	</head>
- 	<body>
- 		<p>This is an example of an
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+ <title>XHTML 1.0 Strict Example</title>
+ <script type="application/javascript">
+ <![CDATA[
+ function loadpdf() {
+    document.getElementById("pdf-object").src="http://www.w3.org/TR/xhtml1/xhtml1.pdf";
+ }
+ ]]>
+ </script>
+ </head>
+ <body onload="loadpdf()">
+ <p>This is an example of an
 			<abbr title="Extensible HyperText Markup Language">XHTML</abbr> 1.0 Strict document.<br/>
 			hier auch noch t ext
 			<img id="ohneAlt1"
