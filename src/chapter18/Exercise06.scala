@@ -4,7 +4,7 @@ import java.lang.Math._
 
 object Exercise06 {
   
-  def main(args: Array[String]): Unit = {     
+   def main(args: Array[String]): Unit = {     
     
     def transform(arr: Array[Int], value: Int): Int Either Int = {
       val arrWithIndex = arr.zipWithIndex
@@ -28,5 +28,4 @@ object Exercise06 {
     print(transform(arr, 11)) 
     print(transform(arr, 500))
   }  
-  
 }
