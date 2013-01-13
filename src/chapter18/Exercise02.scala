@@ -6,7 +6,7 @@ object Exercise02 {
   def main(args: Array[String]): Unit = {  
     object and
     object show
-    object then
+    object theni // because then is reserved
     object around
     
     class Bug {
@@ -29,7 +29,7 @@ object Exercise02 {
         showi
         this
       }
-      def and(obj: then.type): this.type = {
+      def and(obj: theni.type): this.type = {
         this
       }
       def turn(obj: around.type): this.type = {
@@ -38,8 +38,7 @@ object Exercise02 {
     } 
     
     val bugsy = new Bug
-    //bugsy move 4 and show and then move 6 and show turn around move 5 and show
-    bugsy move 4 and show and then move 6 and show turn around move 5 and show
+    bugsy move 4 and show and theni move 6 and show turn around move 5 and show
 
   }  
   
