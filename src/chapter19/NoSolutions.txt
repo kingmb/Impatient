@@ -1,0 +1,1 @@
+I'm actual not interested in parsing and its far to complex to program the solutions on the fly
